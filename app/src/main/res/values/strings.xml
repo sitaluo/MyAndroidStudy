@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">安卓示例程序</string>
+    <string name="title_activity_login">用户登录</string>
+    <string name="loginBtnName">登录</string>
+</resources>
