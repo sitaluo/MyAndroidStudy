@@ -3,5 +3,32 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="black">#030303</color>
+
+
+    <!-- 公共的 -->
+    <color name="gray1">#aaa</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="price">#D0021B</color>>
+    <color name="black_theme">#1a1a1a</color>
+    <color name="gray_cellMargin">#F3F3F3</color>
+    <color name="gray224">#e0e0e0</color>
+
+    <color name="gray241">#f1f1f1</color>
+    <color name="grayddd">#dddddd</color>
+    <color name="bluetext">#4a90e2</color>
+    <color name="grayText_a">#949494</color>
+    <color name="green_tipfinish">#7ed321</color>
+    <color name="redtext">#D0021B</color>
+
+
+    <color name="textcolor148">#949494</color>
+
+    <color name="windowBackground">#ffdddddd</color>
+    <color name="propertyListBackground">#aadddddd</color>
+    <color name="actionBarBackground">#ffbbbbbb</color>
+    <color name="selectedValueBackground">#ffffffff</color>
+
+
+
 </resources>

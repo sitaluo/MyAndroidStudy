@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="168dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="1dp"
+        android:background="@color/white"
+        android:clickable="true">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cententV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:elevation="1dp"
+        android:clickable="true"
+        >
+        <ImageView
+            android:id="@+id/liveStateImgV"
+            android:scaleType="centerCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/liveTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/liveStateImgV"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:text="我的直播间"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/liveTime"
+            android:layout_below="@id/liveTitle"
+            android:layout_toRightOf="@+id/liveStateImgV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:text="2017-09-01"
+            android:gravity="center"
+            android:textColor="@color/grayText_a"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/liveStateText"
+            android:layout_toRightOf="@+id/liveStateImgV"
+            android:layout_below="@+id/liveTime"
+            android:layout_width="56dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="进行中"
+            android:elevation="1dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+            <!--android:background="@drawable/live_state_shadow_ing"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/liveStateImgV">
+
+            <TextView
+                android:id="@+id/editText"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="编辑"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/munualText"-->
+                <!--android:textSize="14sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:text="手工传图"/>-->
+
+            <TextView
+                android:id="@+id/liveAddressText"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="分享"/>
+
+
+            <ImageView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/enterliveroom"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
