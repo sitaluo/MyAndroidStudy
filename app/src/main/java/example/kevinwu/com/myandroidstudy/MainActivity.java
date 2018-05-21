@@ -7,10 +7,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import example.kevinwu.com.myandroidstudy.mvpLoginDemo.LoginMvpDemoActivity;
+
 public class MainActivity extends AppCompatActivity {
     private Button loginBtn;
     private Button liveListBtn;
-
+    private Button buttonLoginMvp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         loginBtn = findViewById(R.id.loginBtn);
         liveListBtn = findViewById(R.id.liveListBtn);
+        buttonLoginMvp = findViewById(R.id.button_login_mvp);
 
         loginBtn.setOnClickListener((view)->{
             Toast.makeText(this,"登录按钮点击",Toast.LENGTH_SHORT).show();
@@ -29,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this,LiveListActivity.class);
             this.startActivity(intent);
         });
+        buttonLoginMvp.setOnClickListener((view)->{
+            Intent intent = new Intent(this,LoginMvpDemoActivity.class);
+            this.startActivity(intent);
+        });
+
     }
 
 }

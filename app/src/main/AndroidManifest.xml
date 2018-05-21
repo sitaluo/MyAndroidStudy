@@ -24,6 +24,9 @@
         <activity android:name=".LiveListActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".mvpLoginDemo.LoginMvpDemoActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

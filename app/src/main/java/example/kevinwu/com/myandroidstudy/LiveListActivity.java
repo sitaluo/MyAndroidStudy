@@ -63,6 +63,7 @@ public class LiveListActivity extends AppCompatActivity {
                 int itemCount=linearLayoutManager.getItemCount();//recyclerview中的item的所有的数目
                 if(lastVisibleItemPosition  == liveRoomListAdapter.getItemCount()-1){
                     System.out.println("需要加载更多了");
+                    loadMoreData();
                 }
             }
         });
